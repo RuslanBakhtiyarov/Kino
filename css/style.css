@@ -1,6 +1,9 @@
 body{
     background-color: #621402;
     font-family: 'Roboto', sans-serif;
+    background: linear-gradient(180deg, rgba(98, 20, 2, 0.31) 0%, #621402 85.62%), url(../Image/bg.png) no-repeat ;
+    
+    
 }
 .header{
     display: flex;
