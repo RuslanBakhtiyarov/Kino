@@ -1,11 +1,16 @@
+*{
+    color: #fff;
+}
 body{
     background-color: #621402;
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(180deg, rgba(98, 20, 2, 0.31) 0%, #621402 85.62%), url(../Image/bg.png) no-repeat ;
-    
-    
 }
 .header{
+    min-height: 100vh;
+    background: linear-gradient(180deg, rgba(98, 20, 2, 0.31) 0%, #621402 85.62%),
+    url("../Image/bg\ \(3\).jpg") no-repeat center top / cover;
+}
+.navbar{
     display: flex;
     align-items: center;
     padding-top: 30px;
@@ -41,116 +46,60 @@ body{
     border-radius: 50%;
     margin-left: 11px;
 }
-.section-item{
-    width: 231px;
-    height: 36px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
+.film{
+    margin-top: 60px;
+}
+.film-titl-small{
+    opacity: 0.5;
     font-size: 24px;
     line-height: 150%;
-    color: #FFFFFF;
-    list-style-type:none ;
-    padding-top: 153px;
-    margin: 0;
-    padding-bottom: 11px;
-    font-size: 24px;
-    opacity: 0.5;
 }
-.section-nav{
-    width: 553px;
-    height: 42px;
-    color: #FFFFFF;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
+.film-titel{
+    margin-top: 11px;
+    margin-bottom: 23px;
     font-size: 36px;
     line-height: 42px;
-    margin-top: 11px;
-    padding-bottom: 23px;
 }
-.section-link{
-    width: 570px;
-    height: 168px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
+.film-description{
+    max-width: 560px;
     font-size: 16px;
     line-height: 150%;
-    margin: 0;
-    color: #FFFFFF;
 }
-.clock{
-    list-style-type: none;
-    display: flex;
-    padding-left: 0;
-    margin: 0;
-}
-.clock-item{
+.film{
     display: flex;
     align-items: center;
 }
-.clock-img{
-    width: 20px;
-    height: 20px;
-    padding-top: 50px;
-    padding-right: 14px;
-    padding-bottom: 69px;
-}
-.clock-link{
-    width: 66px;
-    height: 24px;
-    font-size: 16px;
-    color: #FFFFFF;
-    padding-top: 55px;
-    padding-right: 34px;
-    padding-bottom: 67px;
-    margin: 0;
-
-}
-.imdb{
-    width: 35px;
-    height: 18px;
-    padding-top: 56px;
-    padding-bottom: 68px;
-}
-.imdb-p{
-    width: 35px;
-    height: 36px;
-    color: #FFFFFF;
-    font-size: 24px;
-    margin: 0;
-    padding-left: 12px;
-}
-.imdb-a{
-    width: 29px;
-    height: 24px;
-    color: #FFFFFF;
-    font-size: 16px;
-    padding-left: 6px;
-}
-.hr{
-    border: 1px solid rgba(255, 255, 255, 0.5);
-}
-.choice{
-    
-}
-.choice-item{
-    width: 37px;
-    height: 19px;
-    color: #FFFFFF;
-    margin-top: 49px;
-    padding-bottom: 20px;
-}
-.choice-k{
-    padding-right: 421px;
-    color: #FFFFFF;
-}
-.choice-w{
-    color: #FFFFFF;
-}
-
-.choice-img{
+.film-ditails{
+    margin-top: 50px;
     display: flex;
-    
-   }
+    align-items: center;
+}
+.film-trailer{
+    margin: auto;
+}
+.time{
+    display: flex;
+    align-items: center;
+}
+.time-icon{
+   margin-right: 14px;
+}
+.rating{
+    display: flex;
+    align-items: center;
+    margin-left: 34px;
+}
+.rating-icon{
+    margin-right: 14px;
+}
+.rating-current{
+    font-size: 24px;
+    line-height: 150%;
+}
+.session{
+    margin-top: 62px;
+    padding-top: 46px;
+    padding-bottom: 63px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
